@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Estilizando o Header */
+header {
+    padding: 25px;
+    /*responsavel pelo preenchimento interno/tamanho*/
+    background-color: rgb(0, 0, 0);
+    /*Cor de fundo*/
+    display: flex;
+    /*tornando os itens Flex/lado a lado*/
+    justify-content: center;
+    /*Justificando o conteúdo ao centro*/
+    gap: 50px;
+    /*espaço entre os elementos*/
+    align-items: center;
+    /*responsável por alinhar verticalmente os itens*/
+}
+
+/* Estilizando o ícone */
+header i {
+    color: rgb(241, 206, 30);
+    /*Cor do ícone*/
+    font-size: 60px;
+    /*Tamanho do ícone*/
+}
+
+/* ESTILIZANDO O TÍTULO */
+header h1 {
+    color: rgb(241, 206, 30);
+    /*cor da letra*/
+    font-size: 36px;
+    /*Tamanho da letra*/
+    font-family: "Playfair Display", serif;
+}
+
+.list-menu ul { /*Alteração na lista não ordenada (elemento pai)*/
+    display: flex; /*tornando as ( li ) flex/lado a lado*/
+    justify-content: center; /*Deixando elas centralizadas*/
+    gap: 20px; /*Espaço entre as ( li )*/
+}
+
+.list-menu ul li { /*Alteração da Lista (li) (elemento filho)*/
+    list-style: none; /*Removendo o estilo de lista aplicado por padrão*/
+}
+
+.list-menu ul li a {
+    text-decoration: none; /*remoção do sublinhado (Decoração de texto: Nenhuma)*/
+    color: rgb(241, 206, 30);
+}
+
+
+
+/* FIM DO CABEÇALHO */
+
+/* INÍCIO PRIMEIRA SESSÃO */
+
+.primeira-section {
+    padding: 160px;
+    /*Preenchimento/Tamanho*/
+    background-color: black;
+    /*cor de fundo*/
+    display: flex;
+    /*Tornando flex/lado a lado*/
+    justify-content: center;
+    /*Justificando o conteúdo ao centro*/
+    align-items: center;
+    /*alinhamento vertical dos itens*/
+    gap: 60px;
+    /*espaço entre os elementos*/
+}
+
+.primeira-section span {
+    font-size: 45px;
+    /*tamanho da letra*/
+    color: rgb(241, 206, 30);
+    /*cor da letra*/
+}
+
+.primeira-section img {
+    width: 400px;
+    /*largura da imagem*/
+    height: 500px;
+    /*Altura da imagem*/
+}
+
+.primeira-section p {
+    color: white;
+    /*Cor da letra*/
+    font-size: 30px;
+    /*tamanho da letra*/
+    font-family: "Playfair Display", serif;
+    /*tipo de font*/
+}
+
+/* FIM DA PRIMEIRA SESSÃO */
+
+
+/* INÍCIO SEGUNDA SESSÃO */
+
+.segunda-section {
+    background-color: black;
+    /*cor de fundo*/
+    padding: 160px;
+    /*preenchimento*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.segunda-section i {
+    font-size: 50px;
+    /*tamanho do ícone*/
+    color: rgb(241, 206, 30);
+    /*cor do ícone*/
+}
+
+.segunda-section p {
+    color: white;
+    /*cor da letra*/
+    font-size: 30px;
+    /*Tamanho da letra*/
+    font-family: "Playfair Display", serif;
+    /*tipo de font*/
+}
+
+/* Fim da segunda sessão */
+
+.terceira-section {
+    padding: 200px;
+    background-image: url(imagens/architecture-3128917_1280.jpg);
+    /*UP IMG*/
+    background-position: center top;
+    /*posição da imagem*/
+    background-size: cover;
+    /*preechimento da imagem*/
+    background-repeat: no-repeat;
+    /*desabilitando repetição imagem*/
+    background-attachment: fixed;
+    /*FIXAÇÃO DA IMAGEM*/
+
+    display: flex;
+    justify-content: center;
+}
+
+.terceira-section button {
+    padding: 10px;
+    width: 150px;
+    background-color: rgb(241, 206, 30);
+    color: black;
+}
+
+/* Final da Terceira sessão */
+
+
+.sessao-04 {
+    padding: 150px; /*Preenchimento/Tamanho da Section*/
+    background-color: rgb(23, 22, 22); /*Cor de fundo*/
+    display: flex; /*Aqui estamos deixando as caixas lado a lado*/
+    justify-content: space-evenly; /*Estamos justificando o posicionamento das caixas*/
+    gap: 15px; /*Brecha entre as caixas*/
+}
+
+.sessao-04 div { /*estamos padronizando todas as caixas/div´s*/
+    width: 300px; /*largura da caixa*/
+    height: 300px; /*Altura da caixa*/
+    background-color: rgba(128, 128, 128, 0.85); /*cor de fundo*/
+    text-align: center; /*Estou alinhando o texto ao centro*/
+    padding: 15px; /*margem interna da caixa*/
+}
+
+
+.div-02 { /*Aqui estamos alterando a segunda caixa/div*/
+    background-image: url(imagens/dog.jpg); /*Inserindo img*/
+    background-size: cover; /*Aplicando o preenchimento total*/
+    /* background-position: right bottom; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-03 img {
+    width: 100px;
+    height: 100px;
+}
+
+.div-03 p {
+    font-size: 17px; /*Tamanho da letra*/
+    color: white; /*Cor da letra*/
+    font-weight: 600; /*PESO DA FONT*/
+    line-height: 20px; /*Distância entre as linhas*/
+}
+
+
+
+
+
+
+
+footer {
+    padding: 25px;
+    background-color: black;
+    
+    text-align: center; /*momentâneo*/
+}
+
+footer p {
+    color: rgb(241, 206, 30); /*cor da letra*/
+    font-size: 25px; /*tamanho da letra*/
+}
+
+footer i {
+    color: rgb(241, 206, 30); /*cor do ícone*/
+    font-size: 20px; /*Tamnho do ícone*/
+}

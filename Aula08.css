@@ -145,11 +145,8 @@ footer {
     padding: 7px;
     background-color: #336666;
     text-align: center;
-
-   
 }
 
-    
     footer img {
         width: 90px;
     }
@@ -162,5 +159,4 @@ footer {
         font-size: 15px;
         color: #fff;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-
     }

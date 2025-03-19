@@ -15,7 +15,7 @@
 
 <body>
 
-    <header>
+    <header id="cabecalho">
         <div class="icone imobiliaria">
             <img src="imagens/sale.png" alt="placa de venda">
         </div>
@@ -28,39 +28,39 @@
         <div class=" list-menu">
             <ul>
                 <li>
-                    <a href="">ANUNCIAR IMÓVEIS</a>
+                    <a href="#sessao-01">ENTRAR</a>
                 </li>
 
                 <li>
-                    <a href="">IMÓVEIS A VENDA</a>
+                    <a href="#sessao-02">IMÓVEIS A VENDA</a>
                 </li>
 
                 <li>
-                    <a href=""> ENTRAR</a>
+                    <a href="#sessao-03">SOBRE NÓS</a>
+                </li>
+
+                <li>
+                    <a href="#sessao-04">LOCALIZAÇÃO</a>
                 </li>
 
             </ul>
 
-        </div>
-    </header>
-
-
-
+        </div>    </header>
 
 
     <main>
 
-        <section class="sessão-01">
+        <section class="sessao-01" id="sessao-01">
 
-            <button>IMÓVEIS</button>
+            <button>LOGIN</button>
 
         </section>
 
 
-        <section class="sessao-02">
+        <section class="sessao-02" id="sessao-02">
 
-            <div class="div-01">
-
+            <div class="div-01 compra">
+                <!-- classes secundarias inseridas -->
                 <h2> <span>TRANQUILIDADE NA COMPRA</span></h2>
                 <p> Facilitamos a sua busca com as melhores
                     oportunidade para você viver o que sempre quis.
@@ -70,10 +70,12 @@
             </div>
 
 
-            <div class="div-02">
+            <div class="div-02 avaliacao"> 
+                <!-- classe secundária inserida é quando usamos o espaço na nomeação e consequetemente 
+                 abrimos a segunda class -->
                 <h2> <span>AVALIAÇÃO</span></h2>
                 <img src="imagens/casal 300x300.jpg" alt="imagem de casal feliz">
-                
+
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -84,7 +86,9 @@
             </div>
 
 
-            <div class="div-03">
+            <div class="div-03 imoveis">
+                <!-- ex: div class="div-03" já é uma caixa nomead, vou acresentar outra nomeação puxando 
+                 div class= "div-03 ESPAÇO imoveis/ usando espaço e colocando outro titulo já cria uma seguanda class" -->
                 <h2> <span>IMÓVEIS Á VENDA</span> </h2>
                 <p> Aproveite essa oportunidade imperdivel
                     para comprar o seu imóvel.
@@ -97,12 +101,12 @@
 
 
 
-
-        <section class="sessao-03">
+        <section class="sessao-03" id="sessao-03">
             <div class="div-p">
                 <p>
-                    Para auxiliar as pessoas na busca por um local onde possam vivenciar o que há de melhor,
-                    desenvolvemos soluções inovadoras que <span>promovem uma experiência única e acolhedora.</span>
+                    A <span>JK Imobiliária</span> é uma empresa comprometida em oferecer as melhores opções de imóveis para você e sua
+                     família Temos uma equipe especializada, pronta para ajudar você a encontrar o imóvel dos seus sonhos,
+                      seja para morar, investir ou alugar <span>uma experiência única e acolhedora.</span>
 
             </div>
 
@@ -113,16 +117,13 @@
         </section>
 
 
-
-
-
-        <section class="sessao-04">
+        <section class="sessao-04" id="sessao-04">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14631.682391560425!2d-46.46618531284181!3d-23.53535809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce66bc8c86908b%3A0x36962a2d69f3db06!2sObra%20Social%20Dom%20Bosco!5e0!3m2!1spt-BR!2sbr!4v1741994077046!5m2!1spt-BR!2sbr"
                 width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-            <p>  Venha nos visitar e experimente a diferença de um atendimento próximo e
+            <p> Venha nos visitar e experimente a diferença de um atendimento próximo e
                 acolhedor! Estamos aguardando sua visita para começar juntos a sua jornada</p>
 
         </section>
@@ -131,13 +132,13 @@
             <h3>JK IMÓBILIARIA</h3>
             <h2>TODOS OS DIREITOS RESERVADOS</h2>
             <h2>2025₢Copy</h2>
-           
+
             <img src="imagens/sale.png" alt="">
+            
+            <a href="#cabecalho"> Topo da página </a>
         </footer>
 
-        
     </main>
-
 
 </body>
 

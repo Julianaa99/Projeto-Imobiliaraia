@@ -1,3 +1,11 @@
+ * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    scroll-behavior: smooth; /*Scrool suave nas transições*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 header {
     padding: 25px;
     background-color: #336666;
@@ -39,7 +47,7 @@ header h1 {
     font-size: 50;
 }
 
-.sessão-01 {
+.sessao-01 {
     background-image: url(imagens/ai-generated-8909925_1280.jpg);
     padding: 300px;
     background-repeat: no-repeat;
@@ -52,7 +60,7 @@ header h1 {
 
 }
 
-.sessão-01 button {
+.sessao-01 button {
     width: 160px;
     background-color: #f1731f;
     padding: 12px;
@@ -60,7 +68,7 @@ header h1 {
 }
 
 
-.sessao-02{
+.sessao-02 {
     padding: 150px;
     background-color: #ece7dd;
 
@@ -77,9 +85,11 @@ header h1 {
     text-align: center;
     padding: 10px;
 }
-.sessao-02 div span { 
+
+.sessao-02 div span {
     color: #336666;
 }
+
 .sessao-02 div p {
     font-size: 25px;
     color: #fff;
@@ -92,15 +102,14 @@ header h1 {
 
 
 .div-02 img {
-width: 100%;
+    width: 100%;
 }
+
 .div-02 i {
 
-    color: #336666 ;
-    
- }
+    color: #336666;
 
-
+}
 
 
 .sessao-03 {
@@ -111,19 +120,27 @@ width: 100%;
     gap: 40px;
     align-items: center;
 }
+.sessao-03 p {
+background-color: #f1731f8a;
+padding: 50px;
+    
+}
 
+.sessao-03 span {
+    color: #336666;
+}
 
 .div-img img {
-width: 500px;
-height: 500px;
-border-radius: 30px;
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
 }
 
 
 
-.div-p p{
-font-size: 30px;
-color: #fff;
+.div-p p {
+    font-size: 30px;
+    color: #fff;
 }
 
 .sessao-04 {
@@ -138,6 +155,7 @@ color: #fff;
 .sessao-04 p {
     font-size: 30px;
     color: #fff;
+    padding: 50px;
     background-color: #f1731f6e;
 }
 
@@ -147,16 +165,16 @@ footer {
     text-align: center;
 }
 
-    footer img {
-        width: 90px;
-    }
+footer img {
+    width: 90px;
+}
 
-    footer h3 {
-      color: #f1731f;
-    }
+footer h3 {
+    color: #f1731f;
+}
 
-    footer h2 {
-        font-size: 15px;
-        color: #fff;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
+footer h2 {
+    font-size: 15px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -159,6 +159,45 @@ padding: 50px;
     background-color: #f1731f6e;
 }
 
+
+/* inicio dda segunda pagina */
+#sessao-01-pg1 {
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 100;
+       align-items: center;
+       gap: 30px;
+    }
+
+    #sessao-01-pg1 h2 {
+        color:white
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+       background-color: #f1731fbd;
+    }
+
+    #sessao-01-pg1 p {
+        padding: 15px;
+        background-color: #f1731fce;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
     padding: 7px;
     background-color: #336666;

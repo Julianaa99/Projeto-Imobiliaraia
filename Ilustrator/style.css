@@ -1,0 +1,58 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /*Cada detalhe no codigo é importe trazer para ca, como as fontos, caixas, imagens, fundos. Usar números para
+        indentificar*/
+        header {
+
+            display: flex;
+            justify-content: space-evenly;
+            gap: 15x;
+            background-color: rgb(212, 208, 208);
+            /* Cor da faixa*/
+            padding: 15px;
+            align-items: center;
+
+        }
+
+        header img {
+            width: 150px;
+            height: auto;
+
+        }
+
+        header button {
+            width: 150px;
+            padding: 3px;
+            border: none;
+            background-color: rgb(194, 191, 191);
+            /*Cor do botão normal, sem passar o mouse*/
+            color: white;
+            /*cor da letra/fonte do botão*/
+        }
+
+
+        header button:hover {
+            background-color: rgb(240, 237, 104);
+            /*Modifica a cor do botão ao passar o mouse (houver: faz a ação de 
+            ascender e apagar)*/
+            transition: 0.8s;
+            cursor: pointer;
+            border-radius: 5px;
+
+        }
+
+        /*backgraound: linear-gradient(180deg, #0c1*/
+
+        .section-01 {
+            background: linear-gradient(90deg, rgba(36, 34, 0, 0.34217436974789917) 0%, rgba(121, 78, 9, 0.6250875350140056) 35%, rgba(255, 252, 0, 0.6587009803921569) 100%), url(imagens.ilu/moda\ feminia-\ urbana.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            padding: 200px;
+        }
+
+        /*https://cssgradient.io/   para poder fazer o estilo degrade.*/

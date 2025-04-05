@@ -47,12 +47,13 @@
         /*backgraound: linear-gradient(180deg, #0c1*/
 
         .section-01 {
-            background: linear-gradient(90deg, rgba(36, 34, 0, 0.34217436974789917) 0%, rgba(121, 78, 9, 0.6250875350140056) 35%, rgba(255, 252, 0, 0.6587009803921569) 100%), url(imagens.ilu/moda\ feminia-\ urbana.jpg);
+            background: linear-gradient(90deg, rgba(36, 34, 0, 0.34217436974789917) 0%, rgba(121, 78, 9, 0.6250875350140056) 35%, rgba(255, 253, 107, 0.659) 100%), url(imagens.ilu/dramatico\ urbano.webp);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
 
-            padding: 200px;
+            padding: 230px;
         }
 
         /*https://cssgradient.io/   para poder fazer o estilo degrade.*/
+        /*No illustraitor para o tamnho de logo em site a medida é 250 e maxima até 500px*/

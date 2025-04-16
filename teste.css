@@ -1,0 +1,77 @@
+/*Resert básico*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*Ajuda a deixar os elementos organizados dentro
+das caixas*/
+}
+
+/*Estilizando o header*/
+header {
+    background-color: black;
+    padding: 1rem;
+    /*Espaçamento interno*/
+    box-shadow: 0 2px 4px rgb(165, 15, 15);
+    /*sombra leve no header*/
+    position: sticky;
+    /*ultilizando pata deixar o meu suspenso */
+    top: 0;
+    /*zerando a formatção/distância em relação a esquerda*/
+    left: 0;
+    z-index: 999;
+    /*Eixo Z utilizado para sobrepor outros elementos que estarãp dentro do
+    site*/
+
+    /*container header*/
+}
+
+.conteiner-hearder {
+    display: flex;
+    /*organiza os itens em linha*/
+    justify-content: space-evenly;
+    /*logo á esquerda. botaão à diretita*/
+    align-items: center;
+    /*alinha verticalmente*/
+    max-width: 1200px;
+    margin: 0 auto;
+    /*centraliza na tela colocando margim 0 no top e bottom e as laterais automática:*/
+    padding: 0 1rem;
+    /*respiro lateral*/
+}
+
+/*Botão do Header*/
+
+.logo {
+    height: 32px;
+}
+
+.btn-header {
+    padding: 0.5rem 1rem;
+    background-color: blue;
+    color: antiquewhite;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .conteiner-hearder {
+        flex-direction: column;
+        /*empilha os itens podemos testar o row*/
+        gap: 1rem;
+        /*espaço entre logo botão*/
+    }
+
+    .logo{
+        height: 32px;/*diminui a logo em telas menores*/
+    }
+.btn-header{
+    width: 100px;
+    /*botão ocupa largura total*/
+    text-align: center;
+}
+
+}
+

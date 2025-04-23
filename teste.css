@@ -40,12 +40,13 @@ header {
     /*respiro lateral*/
 }
 
-/*Botão do Header*/
-
-.logo {
-    height: 32px;
+/*Estilizando a logo*/
+.logo{
+    height: 40px;/* altura fixa*/
+    width: auto; /*mantém prporção da imagem*/
 }
 
+/*Botão do Header*/
 .btn-header {
     padding: 0.5rem 1rem;
     background-color: blue;
@@ -55,6 +56,7 @@ header {
     font-size: 1rem;
     cursor: pointer;
 }
+
 
 @media (max-width: 600px) {
     .conteiner-hearder {
@@ -75,3 +77,67 @@ header {
 
 }
 
+
+/*Estilo da sessão principal- fora do meia query
+Apliva o layout principal da seção destque em telas grandes*/
+
+.sessao-destaque {
+    display: flex;/*Ativa o flebox para organizar os elementos lado a lado */
+    flex-direction: row; /*direção horizontal: imagem e texto lado a lado*/
+    align-items: center; /*alinha verticalmete ao centro*/
+    justify-content: space-between; /*espaço entre os elementos */
+    gap: 2rem; /* espaçamento entre imagem e texto*/
+    padding: 2rem; /*espaçamento interno*/
+    margin: 0 auto; /*Centraliza o horizontalemnte na tela*/
+    flex-wrap: wrap;/*permite que os elementos quebrem linha se necessario*/
+    background-color: rgb(14, 8, 8); 
+}
+
+* Estilo da imagem dentro da seção destaque */
+.destaque-imagem img {
+    width: 100%; /* Ocupa toda a largura da div */
+    max-width: 500px; /* Limita o tamanho máximo da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Arredonda os cantos da imagem */
+}
+
+/* Estilo da div que contém o texto */
+.destaque-texto {
+    max-width: 500px; /* Limita a largura para facilitar a leitura */
+}
+
+/* Estilo do título dentro do bloco de texto */
+.destaque-texto h2 {
+    font-size: 2rem; /* Tamanho grande para o título */
+    margin-bottom: 1rem; /* Espaço abaixo do título */
+    color: white;
+}
+
+/* Estilo do parágrafo dentro do bloco de texto */
+.destaque-texto p {
+    font-size: 1.1rem; /* Tamanho agradável para leitura */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    color: white;
+}
+
+/* Responsividade: altera o layout para dispositivos com largura menor que 768px */
+@media (max-width: 768px) {
+    .sessao-destaque {
+        flex-direction: column; /* Empilha os elementos em coluna (imagem em cima, texto embaixo) */
+        align-items: center; /* Centraliza os itens no centro da seção */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .destaque-imagem,
+    .destaque-texto {
+        max-width: 100%; /* Ocupa toda a largura disponível em telas pequenas */
+    }
+
+    .destaque-texto h2 {
+        font-size: 1.5rem; /* Reduz o tamanho do título em telas menores */
+    }
+
+    .destaque-texto p {
+        font-size: 1rem; /* Reduz o tamanho do parágrafo */
+    }
+}
